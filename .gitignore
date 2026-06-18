@@ -1,3 +1,11 @@
+# Node
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+...
 # Python
 __pycache__/
 *.py[cod]
@@ -14,8 +22,8 @@ build/
 # Data & Models
 data/raw/
 data/processed/
-models/*.pkl
-models/*.joblib
+#models/*.pkl
+#models/*.joblib
 *.h5
 *.ckpt
 
