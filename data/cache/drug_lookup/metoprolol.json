@@ -1,0 +1,658 @@
+{
+  "timestamp": 1773975689.5466456,
+  "data": {
+    "drug_id": "RXCUI:6918",
+    "standard_name": "metoprolol",
+    "approved_uses": [
+      {
+        "indication": "See official prescribing information",
+        "source": "RxNorm"
+      }
+    ],
+    "metadata": {
+      "rxcui": "6918",
+      "name": "metoprolol",
+      "tty": "",
+      "is_generic": false,
+      "source": "RxNorm"
+    },
+    "structure": {
+      "2d_svg": "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0naXNvLTg4NTktMSc/Pgo8c3ZnIHZlcnNpb249JzEuMScgYmFzZVByb2ZpbGU9J2Z1bGwnCiAgICAgICAgICAgICAgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJwogICAgICAgICAgICAgICAgICAgICAgeG1sbnM6cmRraXQ9J2h0dHA6Ly93d3cucmRraXQub3JnL3htbCcKICAgICAgICAgICAgICAgICAgICAgIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJwogICAgICAgICAgICAgICAgICB4bWw6c3BhY2U9J3ByZXNlcnZlJwp3aWR0aD0nNDAwcHgnIGhlaWdodD0nNDAwcHgnIHZpZXdCb3g9JzAgMCA0MDAgNDAwJz4KPCEtLSBFTkQgT0YgSEVBREVSIC0tPgo8cmVjdCBzdHlsZT0nb3BhY2l0eToxLjA7ZmlsbDojRkZGRkZGO3N0cm9rZTpub25lJyB3aWR0aD0nNDAwLjAnIGhlaWdodD0nNDAwLjAnIHg9JzAuMCcgeT0nMC4wJz4gPC9yZWN0Pgo8cGF0aCBjbGFzcz0nYm9uZC0wIGF0b20tMCBhdG9tLTEnIGQ9J00gMTguMiwxOTYuOCBMIDI4LjAsMjA0LjgnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTAgYXRvbS0wIGF0b20tMScgZD0nTSAyOC4wLDIwNC44IEwgMzcuOSwyMTIuNycgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6I0ZGMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMSBhdG9tLTEgYXRvbS0yJyBkPSdNIDQ4LjMsMjE0LjkgTCA2MC43LDIxMC4yJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojRkYwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xIGF0b20tMSBhdG9tLTInIGQ9J00gNjAuNywyMTAuMiBMIDczLjAsMjA1LjQnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTIgYXRvbS0yIGF0b20tMycgZD0nTSA3My4wLDIwNS40IEwgOTcuOSwyMjUuNScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMyBhdG9tLTMgYXRvbS00JyBkPSdNIDk3LjksMjI1LjUgTCAxMjcuOCwyMTQuMCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNCBhdG9tLTQgYXRvbS01JyBkPSdNIDEyNy44LDIxNC4wIEwgMTMyLjcsMTgyLjMnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTQgYXRvbS00IGF0b20tNScgZD0nTSAxMzMuMCwyMTIuMCBMIDEzNy4xLDE4NS44JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC01IGF0b20tNSBhdG9tLTYnIGQ9J00gMTMyLjcsMTgyLjMgTCAxNjIuNiwxNzAuOCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNiBhdG9tLTYgYXRvbS03JyBkPSdNIDE2Mi42LDE3MC44IEwgMTg3LjUsMTkwLjknIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTYgYXRvbS02IGF0b20tNycgZD0nTSAxNjEuOCwxNzYuMyBMIDE4Mi40LDE5Mi45JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC03IGF0b20tNyBhdG9tLTgnIGQ9J00gMTg3LjUsMTkwLjkgTCAxOTkuOSwxODYuMicgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNyBhdG9tLTcgYXRvbS04JyBkPSdNIDE5OS45LDE4Ni4yIEwgMjEyLjIsMTgxLjQnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiNGRjAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTggYXRvbS04IGF0b20tOScgZD0nTSAyMjIuNiwxODMuNiBMIDIzMi41LDE5MS41JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojRkYwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC04IGF0b20tOCBhdG9tLTknIGQ9J00gMjMyLjUsMTkxLjUgTCAyNDIuMywxOTkuNScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtOSBhdG9tLTkgYXRvbS0xMCcgZD0nTSAyNDIuMywxOTkuNSBMIDI3Mi4yLDE4OC4wJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMCBhdG9tLTEwIGF0b20tMTEnIGQ9J00gMjcyLjIsMTg4LjAgTCAyNzQuMiwxNzUuMCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTAgYXRvbS0xMCBhdG9tLTExJyBkPSdNIDI3NC4yLDE3NS4wIEwgMjc2LjMsMTYyLjEnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiNGRjAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTExIGF0b20tMTAgYXRvbS0xMicgZD0nTSAyNzIuMiwxODguMCBMIDI5Ny4xLDIwOC4xJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMiBhdG9tLTEyIGF0b20tMTMnIGQ9J00gMjk3LjEsMjA4LjEgTCAzMDkuOCwyMDMuMicgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTIgYXRvbS0xMiBhdG9tLTEzJyBkPSdNIDMwOS44LDIwMy4yIEwgMzIyLjUsMTk4LjMnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwRkY7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTEzIGF0b20tMTMgYXRvbS0xNCcgZD0nTSAzMzEuNSwyMDAuMiBMIDM0MS43LDIwOC40JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMEZGO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMyBhdG9tLTEzIGF0b20tMTQnIGQ9J00gMzQxLjcsMjA4LjQgTCAzNTEuOSwyMTYuNicgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTQgYXRvbS0xNCBhdG9tLTE1JyBkPSdNIDM1MS45LDIxNi42IEwgMzgxLjgsMjA1LjEnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTE1IGF0b20tMTQgYXRvbS0xNicgZD0nTSAzNTEuOSwyMTYuNiBMIDM0Ny4wLDI0OC4zJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xNiBhdG9tLTcgYXRvbS0xNycgZD0nTSAxODcuNSwxOTAuOSBMIDE4Mi42LDIyMi42JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xNyBhdG9tLTE3IGF0b20tMTgnIGQ9J00gMTgyLjYsMjIyLjYgTCAxNTIuNywyMzQuMScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTcgYXRvbS0xNyBhdG9tLTE4JyBkPSdNIDE3OC4zLDIxOS4xIEwgMTUzLjYsMjI4LjYnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTE4IGF0b20tMTggYXRvbS00JyBkPSdNIDE1Mi43LDIzNC4xIEwgMTI3LjgsMjE0LjAnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGQ9J00gNzIuNCwyMDUuNiBMIDczLjAsMjA1LjQgTCA3NC4yLDIwNi40JyBzdHlsZT0nZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxOycgLz4KPHBhdGggZD0nTSA5Ni43LDIyNC41IEwgOTcuOSwyMjUuNSBMIDk5LjQsMjI0LjknIHN0eWxlPSdmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjE7JyAvPgo8cGF0aCBkPSdNIDEzMi41LDE4My45IEwgMTMyLjcsMTgyLjMgTCAxMzQuMiwxODEuOCcgc3R5bGU9J2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MTsnIC8+CjxwYXRoIGQ9J00gMTYxLjEsMTcxLjQgTCAxNjIuNiwxNzAuOCBMIDE2My45LDE3MS44JyBzdHlsZT0nZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxOycgLz4KPHBhdGggZD0nTSAyNDEuOCwxOTkuMSBMIDI0Mi4zLDE5OS41IEwgMjQzLjgsMTk4LjknIHN0eWxlPSdmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjE7JyAvPgo8cGF0aCBkPSdNIDI5NS45LDIwNy4xIEwgMjk3LjEsMjA4LjEgTCAyOTcuOCwyMDcuOCcgc3R5bGU9J2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MTsnIC8+CjxwYXRoIGQ9J00gMTgyLjgsMjIxLjAgTCAxODIuNiwyMjIuNiBMIDE4MS4xLDIyMy4xJyBzdHlsZT0nZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxOycgLz4KPHBhdGggZD0nTSAxNTQuMiwyMzMuNSBMIDE1Mi43LDIzNC4xIEwgMTUxLjUsMjMzLjEnIHN0eWxlPSdmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjE7JyAvPgo8cGF0aCBjbGFzcz0nYXRvbS0xJyBkPSdNIDM4LjkgMjE3LjAKUSAzOC45IDIxNC44LCA0MC4wIDIxMy42ClEgNDEuMSAyMTIuNCwgNDMuMSAyMTIuNApRIDQ1LjEgMjEyLjQsIDQ2LjIgMjEzLjYKUSA0Ny4zIDIxNC44LCA0Ny4zIDIxNy4wClEgNDcuMyAyMTkuMiwgNDYuMiAyMjAuNApRIDQ1LjEgMjIxLjcsIDQzLjEgMjIxLjcKUSA0MS4xIDIyMS43LCA0MC4wIDIyMC40ClEgMzguOSAyMTkuMiwgMzguOSAyMTcuMApNIDQzLjEgMjIwLjYKUSA0NC41IDIyMC42LCA0NS4yIDIxOS43ClEgNDYuMCAyMTguOCwgNDYuMCAyMTcuMApRIDQ2LjAgMjE1LjIsIDQ1LjIgMjE0LjMKUSA0NC41IDIxMy40LCA0My4xIDIxMy40ClEgNDEuNyAyMTMuNCwgNDEuMCAyMTQuMwpRIDQwLjIgMjE1LjIsIDQwLjIgMjE3LjAKUSA0MC4yIDIxOC44LCA0MS4wIDIxOS43ClEgNDEuNyAyMjAuNiwgNDMuMSAyMjAuNgonIGZpbGw9JyNGRjAwMDAnLz4KPHBhdGggY2xhc3M9J2F0b20tOCcgZD0nTSAyMTMuMiAxNzkuNApRIDIxMy4yIDE3Ny4yLCAyMTQuMyAxNzYuMApRIDIxNS40IDE3NC44LCAyMTcuNCAxNzQuOApRIDIxOS40IDE3NC44LCAyMjAuNSAxNzYuMApRIDIyMS42IDE3Ny4yLCAyMjEuNiAxNzkuNApRIDIyMS42IDE4MS42LCAyMjAuNSAxODIuOQpRIDIxOS40IDE4NC4xLCAyMTcuNCAxODQuMQpRIDIxNS40IDE4NC4xLCAyMTQuMyAxODIuOQpRIDIxMy4yIDE4MS42LCAyMTMuMiAxNzkuNApNIDIxNy40IDE4My4xClEgMjE4LjggMTgzLjEsIDIxOS41IDE4Mi4yClEgMjIwLjMgMTgxLjIsIDIyMC4zIDE3OS40ClEgMjIwLjMgMTc3LjYsIDIxOS41IDE3Ni43ClEgMjE4LjggMTc1LjgsIDIxNy40IDE3NS44ClEgMjE2LjAgMTc1LjgsIDIxNS4zIDE3Ni43ClEgMjE0LjUgMTc3LjYsIDIxNC41IDE3OS40ClEgMjE0LjUgMTgxLjIsIDIxNS4zIDE4Mi4yClEgMjE2LjAgMTgzLjEsIDIxNy40IDE4My4xCicgZmlsbD0nI0ZGMDAwMCcvPgo8cGF0aCBjbGFzcz0nYXRvbS0xMScgZD0nTSAyNzMuMCAxNTYuMwpRIDI3My4wIDE1NC4yLCAyNzQuMSAxNTIuOQpRIDI3NS4yIDE1MS43LCAyNzcuMiAxNTEuNwpRIDI3OS4yIDE1MS43LCAyODAuMyAxNTIuOQpRIDI4MS4zIDE1NC4yLCAyODEuMyAxNTYuMwpRIDI4MS4zIDE1OC41LCAyODAuMiAxNTkuOApRIDI3OS4yIDE2MS4wLCAyNzcuMiAxNjEuMApRIDI3NS4yIDE2MS4wLCAyNzQuMSAxNTkuOApRIDI3My4wIDE1OC42LCAyNzMuMCAxNTYuMwpNIDI3Ny4yIDE2MC4wClEgMjc4LjUgMTYwLjAsIDI3OS4zIDE1OS4xClEgMjgwLjAgMTU4LjIsIDI4MC4wIDE1Ni4zClEgMjgwLjAgMTU0LjYsIDI3OS4zIDE1My43ClEgMjc4LjUgMTUyLjgsIDI3Ny4yIDE1Mi44ClEgMjc1LjggMTUyLjgsIDI3NS4wIDE1My42ClEgMjc0LjMgMTU0LjUsIDI3NC4zIDE1Ni4zClEgMjc0LjMgMTU4LjIsIDI3NS4wIDE1OS4xClEgMjc1LjggMTYwLjAsIDI3Ny4yIDE2MC4wCicgZmlsbD0nI0ZGMDAwMCcvPgo8cGF0aCBjbGFzcz0nYXRvbS0xMScgZD0nTSAyODIuNyAxNTEuOApMIDI4NC4wIDE1MS44CkwgMjg0LjAgMTU1LjcKTCAyODguNiAxNTUuNwpMIDI4OC42IDE1MS44CkwgMjg5LjggMTUxLjgKTCAyODkuOCAxNjAuOQpMIDI4OC42IDE2MC45CkwgMjg4LjYgMTU2LjcKTCAyODQuMCAxNTYuNwpMIDI4NC4wIDE2MC45CkwgMjgyLjcgMTYwLjkKTCAyODIuNyAxNTEuOAonIGZpbGw9JyNGRjAwMDAnLz4KPHBhdGggY2xhc3M9J2F0b20tMTMnIGQ9J00gMzI1LjAgMTkyLjAKTCAzMjguMCAxOTYuOApRIDMyOC4zIDE5Ny4zLCAzMjguOCAxOTguMQpRIDMyOS4yIDE5OS4wLCAzMjkuMyAxOTkuMApMIDMyOS4zIDE5Mi4wCkwgMzMwLjUgMTkyLjAKTCAzMzAuNSAyMDEuMQpMIDMyOS4yIDIwMS4xCkwgMzI2LjAgMTk1LjgKUSAzMjUuNyAxOTUuMiwgMzI1LjMgMTk0LjUKUSAzMjQuOSAxOTMuOCwgMzI0LjggMTkzLjYKTCAzMjQuOCAyMDEuMQpMIDMyMy42IDIwMS4xCkwgMzIzLjYgMTkyLjAKTCAzMjUuMCAxOTIuMAonIGZpbGw9JyMwMDAwRkYnLz4KPHBhdGggY2xhc3M9J2F0b20tMTMnIGQ9J00gMzIzLjUgMTgyLjAKTCAzMjQuNyAxODIuMApMIDMyNC43IDE4NS45CkwgMzI5LjMgMTg1LjkKTCAzMjkuMyAxODIuMApMIDMzMC42IDE4Mi4wCkwgMzMwLjYgMTkxLjEKTCAzMjkuMyAxOTEuMQpMIDMyOS4zIDE4Ni45CkwgMzI0LjcgMTg2LjkKTCAzMjQuNyAxOTEuMQpMIDMyMy41IDE5MS4xCkwgMzIzLjUgMTgyLjAKJyBmaWxsPScjMDAwMEZGJy8+Cjwvc3ZnPgo=",
+      "3d_coordinates": {
+        "atoms": [
+          {
+            "element": "C",
+            "x": 7.0676329337435595,
+            "y": 0.2257860362720163,
+            "z": -0.9181298163961262,
+            "index": 0
+          },
+          {
+            "element": "O",
+            "x": 6.329656230087386,
+            "y": 1.4119915891971935,
+            "z": -0.6577046628293064,
+            "index": 1
+          },
+          {
+            "element": "C",
+            "x": 5.105496916044131,
+            "y": 1.1712651758382973,
+            "z": 0.03972354379676546,
+            "index": 2
+          },
+          {
+            "element": "C",
+            "x": 3.9990049834606363,
+            "y": 0.707312001048227,
+            "z": -0.9089353532494986,
+            "index": 3
+          },
+          {
+            "element": "C",
+            "x": 2.6734024286262867,
+            "y": 0.5668975529159836,
+            "z": -0.20584566395393117,
+            "index": 4
+          },
+          {
+            "element": "C",
+            "x": 2.3126847393824295,
+            "y": -0.6414147631384535,
+            "z": 0.40233662593538366,
+            "index": 5
+          },
+          {
+            "element": "C",
+            "x": 1.0890673842055218,
+            "y": -0.768722637530327,
+            "z": 1.0707200885416235,
+            "index": 6
+          },
+          {
+            "element": "C",
+            "x": 0.21379059599117953,
+            "y": 0.3130761902390036,
+            "z": 1.1441274233623109,
+            "index": 7
+          },
+          {
+            "element": "O",
+            "x": -1.0093872579994232,
+            "y": 0.33078837475017553,
+            "z": 1.7527373730224343,
+            "index": 8
+          },
+          {
+            "element": "C",
+            "x": -1.4421957261813005,
+            "y": -0.8293900483732579,
+            "z": 2.4609154533919737,
+            "index": 9
+          },
+          {
+            "element": "C",
+            "x": -2.1550674971128854,
+            "y": -1.8594755096034201,
+            "z": 1.5673880884233151,
+            "index": 10
+          },
+          {
+            "element": "O",
+            "x": -2.503804477299791,
+            "y": -3.001677232935812,
+            "z": 2.3629951205306248,
+            "index": 11
+          },
+          {
+            "element": "C",
+            "x": -3.444036650600067,
+            "y": -1.3023811730508696,
+            "z": 0.9196741265253201,
+            "index": 12
+          },
+          {
+            "element": "N",
+            "x": -3.174006034211504,
+            "y": -0.311677759916311,
+            "z": -0.12827440931690587,
+            "index": 13
+          },
+          {
+            "element": "C",
+            "x": -4.376708736498356,
+            "y": 0.3996089577018026,
+            "z": -0.5769390460407422,
+            "index": 14
+          },
+          {
+            "element": "C",
+            "x": -3.9389779785178236,
+            "y": 1.567592053079307,
+            "z": -1.46489961928657,
+            "index": 15
+          },
+          {
+            "element": "C",
+            "x": -5.3268600436083355,
+            "y": -0.5111093782697771,
+            "z": -1.3556759772718596,
+            "index": 16
+          },
+          {
+            "element": "C",
+            "x": 0.5736345621951182,
+            "y": 1.5199510263550404,
+            "z": 0.5397921522010443,
+            "index": 17
+          },
+          {
+            "element": "C",
+            "x": 1.7933366271112614,
+            "y": 1.6505638686136443,
+            "z": -0.12778683259400483,
+            "index": 18
+          },
+          {
+            "element": "H",
+            "x": 8.005395664181426,
+            "y": 0.5073570274447122,
+            "z": -1.4049523436439693,
+            "index": 19
+          },
+          {
+            "element": "H",
+            "x": 7.304708961405411,
+            "y": -0.29298208262853764,
+            "z": 0.01565968298179223,
+            "index": 20
+          },
+          {
+            "element": "H",
+            "x": 6.518539241697339,
+            "y": -0.43857763112456183,
+            "z": -1.5903742859882297,
+            "index": 21
+          },
+          {
+            "element": "H",
+            "x": 4.817351794503089,
+            "y": 2.1232976586596495,
+            "z": 0.5003297831403402,
+            "index": 22
+          },
+          {
+            "element": "H",
+            "x": 5.26558223024146,
+            "y": 0.45929797036231784,
+            "z": 0.8588399878543825,
+            "index": 23
+          },
+          {
+            "element": "H",
+            "x": 3.908253963965219,
+            "y": 1.4119550238165353,
+            "z": -1.7457056722740498,
+            "index": 24
+          },
+          {
+            "element": "H",
+            "x": 4.26657580619082,
+            "y": -0.24794673512037654,
+            "z": -1.3761270277653075,
+            "index": 25
+          },
+          {
+            "element": "H",
+            "x": 2.981429106733543,
+            "y": -1.4984529850341706,
+            "z": 0.35646307855041054,
+            "index": 26
+          },
+          {
+            "element": "H",
+            "x": 0.8561275886955411,
+            "y": -1.729952761291725,
+            "z": 1.513593014209904,
+            "index": 27
+          },
+          {
+            "element": "H",
+            "x": -2.1512574534196953,
+            "y": -0.4825225380738973,
+            "z": 3.2236820416222525,
+            "index": 28
+          },
+          {
+            "element": "H",
+            "x": -0.6311130056258925,
+            "y": -1.285033465289552,
+            "z": 3.0425732900118208,
+            "index": 29
+          },
+          {
+            "element": "H",
+            "x": -1.4891569280628936,
+            "y": -2.2079131135765646,
+            "z": 0.7695489561720706,
+            "index": 30
+          },
+          {
+            "element": "H",
+            "x": -1.6815332719017242,
+            "y": -3.4855333557256114,
+            "z": 2.5518587899238523,
+            "index": 31
+          },
+          {
+            "element": "H",
+            "x": -4.001209055295778,
+            "y": -2.1459559400485224,
+            "z": 0.49553960261894164,
+            "index": 32
+          },
+          {
+            "element": "H",
+            "x": -4.077188554585166,
+            "y": -0.8758884256150261,
+            "z": 1.7082651511206683,
+            "index": 33
+          },
+          {
+            "element": "H",
+            "x": -2.4946072096806304,
+            "y": 0.36551316707860565,
+            "z": 0.23143143178666442,
+            "index": 34
+          },
+          {
+            "element": "H",
+            "x": -4.905761022165998,
+            "y": 0.8198640686993484,
+            "z": 0.2874059351182228,
+            "index": 35
+          },
+          {
+            "element": "H",
+            "x": -3.284764479193618,
+            "y": 2.255637247362635,
+            "z": -0.9174575194613485,
+            "index": 36
+          },
+          {
+            "element": "H",
+            "x": -3.397521966761334,
+            "y": 1.218433783145071,
+            "z": -2.3515566841006907,
+            "index": 37
+          },
+          {
+            "element": "H",
+            "x": -4.807818584069009,
+            "y": 2.14127375640701,
+            "z": -1.8056239472902507,
+            "index": 38
+          },
+          {
+            "element": "H",
+            "x": -6.170887600896456,
+            "y": 0.06269766380355535,
+            "z": -1.7541748127959889,
+            "index": 39
+          },
+          {
+            "element": "H",
+            "x": -4.819634039695888,
+            "y": -0.9895181462446483,
+            "z": -2.201032328059896,
+            "index": 40
+          },
+          {
+            "element": "H",
+            "x": -5.743856789340017,
+            "y": -1.2978388083195558,
+            "z": -0.719115406496828,
+            "index": 41
+          },
+          {
+            "element": "H",
+            "x": -0.10236440180910147,
+            "y": 2.370333424097717,
+            "z": 0.5888543167272297,
+            "index": 42
+          },
+          {
+            "element": "H",
+            "x": 2.0480470060625082,
+            "y": 2.603470874032745,
+            "z": -0.586672758608651,
+            "index": 43
+          }
+        ],
+        "bonds": [
+          {
+            "begin": 0,
+            "end": 1,
+            "order": 1.0
+          },
+          {
+            "begin": 1,
+            "end": 2,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 3,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 4,
+            "order": 1.0
+          },
+          {
+            "begin": 4,
+            "end": 5,
+            "order": 1.5
+          },
+          {
+            "begin": 5,
+            "end": 6,
+            "order": 1.5
+          },
+          {
+            "begin": 6,
+            "end": 7,
+            "order": 1.5
+          },
+          {
+            "begin": 7,
+            "end": 8,
+            "order": 1.0
+          },
+          {
+            "begin": 8,
+            "end": 9,
+            "order": 1.0
+          },
+          {
+            "begin": 9,
+            "end": 10,
+            "order": 1.0
+          },
+          {
+            "begin": 10,
+            "end": 11,
+            "order": 1.0
+          },
+          {
+            "begin": 10,
+            "end": 12,
+            "order": 1.0
+          },
+          {
+            "begin": 12,
+            "end": 13,
+            "order": 1.0
+          },
+          {
+            "begin": 13,
+            "end": 14,
+            "order": 1.0
+          },
+          {
+            "begin": 14,
+            "end": 15,
+            "order": 1.0
+          },
+          {
+            "begin": 14,
+            "end": 16,
+            "order": 1.0
+          },
+          {
+            "begin": 7,
+            "end": 17,
+            "order": 1.5
+          },
+          {
+            "begin": 17,
+            "end": 18,
+            "order": 1.5
+          },
+          {
+            "begin": 18,
+            "end": 4,
+            "order": 1.5
+          },
+          {
+            "begin": 0,
+            "end": 19,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 20,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 21,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 22,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 23,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 24,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 25,
+            "order": 1.0
+          },
+          {
+            "begin": 5,
+            "end": 26,
+            "order": 1.0
+          },
+          {
+            "begin": 6,
+            "end": 27,
+            "order": 1.0
+          },
+          {
+            "begin": 9,
+            "end": 28,
+            "order": 1.0
+          },
+          {
+            "begin": 9,
+            "end": 29,
+            "order": 1.0
+          },
+          {
+            "begin": 10,
+            "end": 30,
+            "order": 1.0
+          },
+          {
+            "begin": 11,
+            "end": 31,
+            "order": 1.0
+          },
+          {
+            "begin": 12,
+            "end": 32,
+            "order": 1.0
+          },
+          {
+            "begin": 12,
+            "end": 33,
+            "order": 1.0
+          },
+          {
+            "begin": 13,
+            "end": 34,
+            "order": 1.0
+          },
+          {
+            "begin": 14,
+            "end": 35,
+            "order": 1.0
+          },
+          {
+            "begin": 15,
+            "end": 36,
+            "order": 1.0
+          },
+          {
+            "begin": 15,
+            "end": 37,
+            "order": 1.0
+          },
+          {
+            "begin": 15,
+            "end": 38,
+            "order": 1.0
+          },
+          {
+            "begin": 16,
+            "end": 39,
+            "order": 1.0
+          },
+          {
+            "begin": 16,
+            "end": 40,
+            "order": 1.0
+          },
+          {
+            "begin": 16,
+            "end": 41,
+            "order": 1.0
+          },
+          {
+            "begin": 17,
+            "end": 42,
+            "order": 1.0
+          },
+          {
+            "begin": 18,
+            "end": 43,
+            "order": 1.0
+          }
+        ]
+      },
+      "smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+      "inchi": "InChI=1S/C15H25NO3/c1-12(2)16-10-14(17)11-19-15-6-4-13(5-7-15)8-9-18-3/h4-7,12,14,16-17H,8-11H2,1-3H3",
+      "inchi_key": "IUBSYMUCCVWXPE-UHFFFAOYSA-N",
+      "3d_sdf": "4171\n  -OEChem-03192623012D\n\n 44 44  0     1  0  0  0  0  0999 V2000\n    3.7321    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321    2.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -4.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4641    3.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981    2.2500    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n    5.4641    2.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3301    4.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981    1.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3301    5.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1962    3.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321   -0.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321   -2.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321   -3.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -1.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981   -1.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -3.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0000   -5.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981    3.1000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6762    2.1674    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0747    2.8577    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.7932    4.5600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.9272    4.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8101    0.6674    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2087    1.3577    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9501    5.2500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3301    5.8700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.7101    5.2500    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8862    3.2131    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.7331    3.4400    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.5062    4.2869    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9441   -3.8326    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3426   -3.1423    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321    3.3700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3291   -2.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350   -2.0600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3291   -0.4400    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350   -0.4400    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6540   -3.1674    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2554   -3.8577    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6900   -4.7131    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4631   -5.5600    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3100   -5.7869    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  8  1  0  0  0  0\n  1 11  1  0  0  0  0\n  2  5  1  0  0  0  0\n  2 35  1  0  0  0  0\n  3 18  1  0  0  0  0\n  3 19  1  0  0  0  0\n  4  6  1  0  0  0  0\n  4  7  1  0  0  0  0\n  4 24  1  0  0  0  0\n  5  6  1  0  0  0  0\n  5  8  1  0  0  0  0\n  5 20  1  0  0  0  0\n  6 21  1  0  0  0  0\n  6 22  1  0  0  0  0\n  7  9  1  0  0  0  0\n  7 10  1  0  0  0  0\n  7 23  1  0  0  0  0\n  8 25  1  0  0  0  0\n  8 26  1  0  0  0  0\n  9 27  1  0  0  0  0\n  9 28  1  0  0  0  0\n  9 29  1  0  0  0  0\n 10 30  1  0  0  0  0\n 10 31  1  0  0  0  0\n 10 32  1  0  0  0  0\n 11 14  2  0  0  0  0\n 11 15  1  0  0  0  0\n 12 13  1  0  0  0  0\n 12 16  2  0  0  0  0\n 12 17  1  0  0  0  0\n 13 18  1  0  0  0  0\n 13 33  1  0  0  0  0\n 13 34  1  0  0  0  0\n 14 16  1  0  0  0  0\n 14 38  1  0  0  0  0\n 15 17  2  0  0  0  0\n 15 39  1  0  0  0  0\n 16 36  1  0  0  0  0\n 17 37  1  0  0  0  0\n 18 40  1  0  0  0  0\n 18 41  1  0  0  0  0\n 19 42  1  0  0  0  0\n 19 43  1  0  0  0  0\n 19 44  1  0  0  0  0\nM  END\n> <PUBCHEM_COMPOUND_CID>\n4171\n\n> <PUBCHEM_COMPOUND_CANONICALIZED>\n1\n\n> <PUBCHEM_CACTVS_COMPLEXITY>\n215\n\n> <PUBCHEM_CACTVS_HBOND_ACCEPTOR>\n4\n\n> <PUBCHEM_CACTVS_HBOND_DONOR>\n2\n\n> <PUBCHEM_CACTVS_ROTATABLE_BOND>\n9\n\n> <PUBCHEM_CACTVS_SUBSKEYS>\nAAADceByMAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAHgAQCAAADDzhmAYyBoLABgCAAiBCAAACCAAgIAAIiIAOCIgPNiKEMRqGOCCm0BGbqAeAwKAOIAAAAAAAAABAAAAAAAAAAAAAAAAAAA==\n\n> <PUBCHEM_IUPAC_OPENEYE_NAME>\n1-(isopropylamino)-3-[4-(2-methoxyethyl)phenoxy]propan-2-ol\n\n> <PUBCHEM_IUPAC_CAS_NAME>\n1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)-2-propanol\n\n> <PUBCHEM_IUPAC_NAME_MARKUP>\n1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol\n\n> <PUBCHEM_IUPAC_NAME>\n1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol\n\n> <PUBCHEM_IUPAC_SYSTEMATIC_NAME>\n1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol\n\n> <PUBCHEM_IUPAC_TRADITIONAL_NAME>\n1-(isopropylamino)-3-[4-(2-methoxyethyl)phenoxy]propan-2-ol\n\n> <PUBCHEM_IUPAC_INCHI>\nInChI=1S/C15H25NO3/c1-12(2)16-10-14(17)11-19-15-6-4-13(5-7-15)8-9-18-3/h4-7,12,14,16-17H,8-11H2,1-3H3\n\n> <PUBCHEM_IUPAC_INCHIKEY>\nIUBSYMUCCVWXPE-UHFFFAOYSA-N\n\n> <PUBCHEM_XLOGP3>\n1.9\n\n> <PUBCHEM_EXACT_MASS>\n267.18344366\n\n> <PUBCHEM_MOLECULAR_FORMULA>\nC15H25NO3\n\n> <PUBCHEM_MOLECULAR_WEIGHT>\n267.36\n\n> <PUBCHEM_SMILES>\nCC(C)NCC(COC1=CC=C(C=C1)CCOC)O\n\n> <PUBCHEM_CONNECTIVITY_SMILES>\nCC(C)NCC(COC1=CC=C(C=C1)CCOC)O\n\n> <PUBCHEM_CACTVS_TPSA>\n50.7\n\n> <PUBCHEM_MONOISOTOPIC_WEIGHT>\n267.18344366\n\n> <PUBCHEM_TOTAL_CHARGE>\n0\n\n> <PUBCHEM_HEAVY_ATOM_COUNT>\n19\n\n> <PUBCHEM_ATOM_DEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>\n1\n\n> <PUBCHEM_BOND_DEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_BOND_UDEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_ISOTOPIC_ATOM_COUNT>\n0\n\n> <PUBCHEM_COMPONENT_COUNT>\n1\n\n> <PUBCHEM_CACTVS_TAUTO_COUNT>\n-1\n\n> <PUBCHEM_COORDINATE_TYPE>\n1\n5\n255\n\n> <PUBCHEM_BONDANNOTATIONS>\n11  14  8\n11  15  8\n12  16  8\n12  17  8\n14  16  8\n15  17  8\n5  20  3\n\n$$$$\n"
+    },
+    "side_effects": {
+      "clinical": [
+        "Vomiting",
+        "Grand mal convulsion",
+        "Testicular swelling",
+        "Weight increased",
+        "Fluid retention",
+        "Platelet count decreased",
+        "Cold sweat",
+        "Haemoglobin decreased",
+        "Hyperhidrosis",
+        "Dehydration",
+        "Hypertension",
+        "Intraocular pressure increased",
+        "Somnolence",
+        "Hyperlipidaemia",
+        "Night sweats",
+        "Abnormal dreams",
+        "Feeling abnormal",
+        "Blood count abnormal",
+        "Insomnia",
+        "Vision blurred",
+        "Nausea",
+        "Transfusion",
+        "Bipolar disorder",
+        "Fatigue",
+        "Panic attack",
+        "Dysgeusia",
+        "Nightmare",
+        "Amnesia",
+        "Trismus",
+        "Back pain",
+        "Drug hypersensitivity"
+      ],
+      "ml_predicted": {
+        "predictions": [
+          {
+            "side_effect": "Hypotension",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Nausea",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Dermatitis",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Rash",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Abdominal pain",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Gastrointestinal pain",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Haematuria",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Pruritus",
+            "tendency": "moderate",
+            "category": "General"
+          },
+          {
+            "side_effect": "Haemoglobin",
+            "tendency": "moderate",
+            "category": "General"
+          },
+          {
+            "side_effect": "Dizziness",
+            "tendency": "moderate",
+            "category": "General"
+          }
+        ],
+        "disclaimer": "\u26a0\ufe0f RESEARCH MODEL: These predictions are based on molecular structure analysis using a research-oriented machine learning model. They indicate potential tendencies only and are NOT validated for clinical use. Do NOT use for medical decision-making.",
+        "model_info": {
+          "model_name": "side_effect_predictor_v1",
+          "version": "1.0",
+          "training_date": "2026-03-07"
+        },
+        "error": null
+      }
+    },
+    "disclaimer": "\u26a0\ufe0f DISCLAIMER: This information is sourced from authoritative medical databases and is for educational purposes only. Always consult healthcare professionals for medical decisions."
+  }
+}

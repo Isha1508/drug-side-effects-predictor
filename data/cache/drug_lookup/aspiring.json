@@ -1,0 +1,28 @@
+{
+  "timestamp": 1781772655.9422336,
+  "data": {
+    "drug_id": "RXCUI:368458",
+    "standard_name": "aspirin Oral Tablet [Aspir-trin]",
+    "approved_uses": [
+      {
+        "indication": "See official prescribing information",
+        "source": "RxNorm"
+      }
+    ],
+    "metadata": {
+      "rxcui": "368458",
+      "name": "aspirin Oral Tablet [Aspir-trin]",
+      "tty": "",
+      "is_generic": false,
+      "source": "RxNorm"
+    },
+    "structure": {
+      "3d_sdf": null
+    },
+    "side_effects": {
+      "clinical": [],
+      "ml_predicted": []
+    },
+    "disclaimer": "\u26a0\ufe0f DISCLAIMER: This information is sourced from authoritative medical databases and is for educational purposes only. Always consult healthcare professionals for medical decisions."
+  }
+}

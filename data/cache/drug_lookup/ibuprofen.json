@@ -1,0 +1,531 @@
+{
+  "timestamp": 1781646137.8132436,
+  "data": {
+    "drug_id": "RXCUI:5640",
+    "standard_name": "Ibuprofen",
+    "approved_uses": [
+      {
+        "indication": "See official prescribing information",
+        "source": "RxNorm"
+      }
+    ],
+    "metadata": {
+      "rxcui": "5640",
+      "name": "Ibuprofen",
+      "tty": "",
+      "is_generic": false,
+      "source": "RxNorm"
+    },
+    "structure": {
+      "2d_svg": "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0naXNvLTg4NTktMSc/Pgo8c3ZnIHZlcnNpb249JzEuMScgYmFzZVByb2ZpbGU9J2Z1bGwnCiAgICAgICAgICAgICAgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJwogICAgICAgICAgICAgICAgICAgICAgeG1sbnM6cmRraXQ9J2h0dHA6Ly93d3cucmRraXQub3JnL3htbCcKICAgICAgICAgICAgICAgICAgICAgIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJwogICAgICAgICAgICAgICAgICB4bWw6c3BhY2U9J3ByZXNlcnZlJwp3aWR0aD0nNDAwcHgnIGhlaWdodD0nNDAwcHgnIHZpZXdCb3g9JzAgMCA0MDAgNDAwJz4KPCEtLSBFTkQgT0YgSEVBREVSIC0tPgo8cmVjdCBzdHlsZT0nb3BhY2l0eToxLjA7ZmlsbDojRkZGRkZGO3N0cm9rZTpub25lJyB3aWR0aD0nNDAwLjAnIGhlaWdodD0nNDAwLjAnIHg9JzAuMCcgeT0nMC4wJz4gPC9yZWN0Pgo8cGF0aCBjbGFzcz0nYm9uZC0wIGF0b20tMCBhdG9tLTEnIGQ9J00gMTguMiwxOTUuMSBMIDY3LjMsMTkyLjAnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTEgYXRvbS0xIGF0b20tMicgZD0nTSA2Ny4zLDE5Mi4wIEwgODkuMywxNDguMCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMiBhdG9tLTEgYXRvbS0zJyBkPSdNIDY3LjMsMTkyLjAgTCA5NC41LDIzMy4xJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0zIGF0b20tMyBhdG9tLTQnIGQ9J00gOTQuNSwyMzMuMSBMIDE0My43LDIzMC4xJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC00IGF0b20tNCBhdG9tLTUnIGQ9J00gMTQzLjcsMjMwLjEgTCAxNjUuNywxODYuMCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNCBhdG9tLTQgYXRvbS01JyBkPSdNIDE1Mi4yLDIyOS42IEwgMTcwLjQsMTkzLjEnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTUgYXRvbS01IGF0b20tNicgZD0nTSAxNjUuNywxODYuMCBMIDIxNC44LDE4My4wJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC02IGF0b20tNiBhdG9tLTcnIGQ9J00gMjE0LjgsMTgzLjAgTCAyNDIuMCwyMjQuMScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNiBhdG9tLTYgYXRvbS03JyBkPSdNIDIxMS4wLDE5MC42IEwgMjMzLjUsMjI0LjYnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTcgYXRvbS03IGF0b20tOCcgZD0nTSAyNDIuMCwyMjQuMSBMIDI5MS4yLDIyMS4wJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC04IGF0b20tOCBhdG9tLTknIGQ9J00gMjkxLjIsMjIxLjAgTCAzMTguNCwyNjIuMScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtOSBhdG9tLTggYXRvbS0xMCcgZD0nTSAyOTEuMiwyMjEuMCBMIDMxMy4yLDE3Ny4wJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMCBhdG9tLTEwIGF0b20tMTEnIGQ9J00gMzE3LjQsMTc2LjcgTCAzMDYuMiwxNTkuNycgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTAgYXRvbS0xMCBhdG9tLTExJyBkPSdNIDMwNi4yLDE1OS43IEwgMjk0LjksMTQyLjcnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiNGRjAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTEwIGF0b20tMTAgYXRvbS0xMScgZD0nTSAzMTEuMywxODAuOCBMIDMwMC4wLDE2My44JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMCBhdG9tLTEwIGF0b20tMTEnIGQ9J00gMzAwLjAsMTYzLjggTCAyODguOCwxNDYuOCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6I0ZGMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTEgYXRvbS0xMCBhdG9tLTEyJyBkPSdNIDMxMy4yLDE3Ny4wIEwgMzMzLjcsMTc1LjcnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTExIGF0b20tMTAgYXRvbS0xMicgZD0nTSAzMzMuNywxNzUuNyBMIDM1NC4zLDE3NC40JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojRkYwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMiBhdG9tLTcgYXRvbS0xMycgZD0nTSAyNDIuMCwyMjQuMSBMIDIyMC4xLDI2OC4xJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xMyBhdG9tLTEzIGF0b20tMTQnIGQ9J00gMjIwLjEsMjY4LjEgTCAxNzAuOSwyNzEuMicgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMTMgYXRvbS0xMyBhdG9tLTE0JyBkPSdNIDIxNS40LDI2MS4wIEwgMTc0LjcsMjYzLjUnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTE0IGF0b20tMTQgYXRvbS00JyBkPSdNIDE3MC45LDI3MS4yIEwgMTQzLjcsMjMwLjEnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGQ9J00gOTMuMiwyMzEuMSBMIDk0LjUsMjMzLjEgTCA5Ny4wLDIzMy4wJyBzdHlsZT0nZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxOycgLz4KPHBhdGggZD0nTSAxNjQuNiwxODguMiBMIDE2NS43LDE4Ni4wIEwgMTY4LjEsMTg1LjknIHN0eWxlPSdmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjE7JyAvPgo8cGF0aCBkPSdNIDIxMi40LDE4My4xIEwgMjE0LjgsMTgzLjAgTCAyMTYuMiwxODUuMCcgc3R5bGU9J2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MTsnIC8+CjxwYXRoIGQ9J00gMzEyLjEsMTc5LjIgTCAzMTMuMiwxNzcuMCBMIDMxNC4yLDE3Ni45JyBzdHlsZT0nZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxOycgLz4KPHBhdGggZD0nTSAyMjEuMiwyNjUuOSBMIDIyMC4xLDI2OC4xIEwgMjE3LjYsMjY4LjMnIHN0eWxlPSdmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjE7JyAvPgo8cGF0aCBkPSdNIDE3My40LDI3MS4wIEwgMTcwLjksMjcxLjIgTCAxNjkuNSwyNjkuMScgc3R5bGU9J2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MTsnIC8+CjxwYXRoIGNsYXNzPSdhdG9tLTExJyBkPSdNIDI3OS42IDEzNS45ClEgMjc5LjYgMTMyLjYsIDI4MS4yIDEzMC43ClEgMjgyLjkgMTI4LjgsIDI4Ni4wIDEyOC44ClEgMjg5LjEgMTI4LjgsIDI5MC43IDEzMC43ClEgMjkyLjQgMTMyLjYsIDI5Mi40IDEzNS45ClEgMjkyLjQgMTM5LjMsIDI5MC43IDE0MS4yClEgMjg5LjAgMTQzLjIsIDI4Ni4wIDE0My4yClEgMjgyLjkgMTQzLjIsIDI4MS4yIDE0MS4yClEgMjc5LjYgMTM5LjMsIDI3OS42IDEzNS45Ck0gMjg2LjAgMTQxLjYKUSAyODguMSAxNDEuNiwgMjg5LjIgMTQwLjIKUSAyOTAuNCAxMzguNywgMjkwLjQgMTM1LjkKUSAyOTAuNCAxMzMuMiwgMjg5LjIgMTMxLjgKUSAyODguMSAxMzAuNCwgMjg2LjAgMTMwLjQKUSAyODMuOCAxMzAuNCwgMjgyLjcgMTMxLjgKUSAyODEuNSAxMzMuMiwgMjgxLjUgMTM1LjkKUSAyODEuNSAxMzguNywgMjgyLjcgMTQwLjIKUSAyODMuOCAxNDEuNiwgMjg2LjAgMTQxLjYKJyBmaWxsPScjRkYwMDAwJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTEyJyBkPSdNIDM1NS45IDE3NC4wClEgMzU1LjkgMTcwLjYsIDM1Ny42IDE2OC44ClEgMzU5LjIgMTY2LjksIDM2Mi4zIDE2Ni45ClEgMzY1LjQgMTY2LjksIDM2Ny4xIDE2OC44ClEgMzY4LjcgMTcwLjYsIDM2OC43IDE3NC4wClEgMzY4LjcgMTc3LjQsIDM2Ny4xIDE3OS4zClEgMzY1LjQgMTgxLjIsIDM2Mi4zIDE4MS4yClEgMzU5LjMgMTgxLjIsIDM1Ny42IDE3OS4zClEgMzU1LjkgMTc3LjQsIDM1NS45IDE3NC4wCk0gMzYyLjMgMTc5LjYKUSAzNjQuNSAxNzkuNiwgMzY1LjYgMTc4LjIKUSAzNjYuOCAxNzYuOCwgMzY2LjggMTc0LjAKUSAzNjYuOCAxNzEuMiwgMzY1LjYgMTY5LjkKUSAzNjQuNSAxNjguNSwgMzYyLjMgMTY4LjUKUSAzNjAuMiAxNjguNSwgMzU5LjAgMTY5LjgKUSAzNTcuOSAxNzEuMiwgMzU3LjkgMTc0LjAKUSAzNTcuOSAxNzYuOCwgMzU5LjAgMTc4LjIKUSAzNjAuMiAxNzkuNiwgMzYyLjMgMTc5LjYKJyBmaWxsPScjRkYwMDAwJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTEyJyBkPSdNIDM3MC45IDE2Ny4wCkwgMzcyLjggMTY3LjAKTCAzNzIuOCAxNzMuMApMIDM3OS45IDE3My4wCkwgMzc5LjkgMTY3LjAKTCAzODEuOCAxNjcuMApMIDM4MS44IDE4MS4wCkwgMzc5LjkgMTgxLjAKTCAzNzkuOSAxNzQuNQpMIDM3Mi44IDE3NC41CkwgMzcyLjggMTgxLjAKTCAzNzAuOSAxODEuMApMIDM3MC45IDE2Ny4wCicgZmlsbD0nI0ZGMDAwMCcvPgo8L3N2Zz4K",
+      "3d_coordinates": {
+        "atoms": [
+          {
+            "element": "C",
+            "x": -4.6396188056495244,
+            "y": -0.15952478214168125,
+            "z": 0.4929095744967533,
+            "index": 0
+          },
+          {
+            "element": "C",
+            "x": -3.1907060943660697,
+            "y": 0.2453733969294253,
+            "z": 0.2105918385076833,
+            "index": 1
+          },
+          {
+            "element": "C",
+            "x": -3.131245097084842,
+            "y": 1.0926193939775821,
+            "z": -1.0630518689009918,
+            "index": 2
+          },
+          {
+            "element": "C",
+            "x": -2.307492102328199,
+            "y": -1.013665710794262,
+            "z": 0.10896681498844081,
+            "index": 3
+          },
+          {
+            "element": "C",
+            "x": -0.8281204160942555,
+            "y": -0.7175088167523912,
+            "z": 0.044771877796225254,
+            "index": 4
+          },
+          {
+            "element": "C",
+            "x": -0.12029342088935159,
+            "y": -0.8788558721795648,
+            "z": -1.1514367696929033,
+            "index": 5
+          },
+          {
+            "element": "C",
+            "x": 1.247188845565385,
+            "y": -0.5990282145826759,
+            "z": -1.2112092533387024,
+            "index": 6
+          },
+          {
+            "element": "C",
+            "x": 1.9376775249494382,
+            "y": -0.15328374867040634,
+            "z": -0.07461970874048128,
+            "index": 7
+          },
+          {
+            "element": "C",
+            "x": 3.4225995034315413,
+            "y": 0.15652227991790985,
+            "z": -0.12154714083296804,
+            "index": 8
+          },
+          {
+            "element": "C",
+            "x": 4.255125720338889,
+            "y": -1.0836636576185021,
+            "z": -0.45434314024649863,
+            "index": 9
+          },
+          {
+            "element": "C",
+            "x": 3.733409686916081,
+            "y": 1.276721743397836,
+            "z": -1.0967643268269014,
+            "index": 10
+          },
+          {
+            "element": "O",
+            "x": 4.033390701082691,
+            "y": 1.1653839536823898,
+            "z": -2.275214014912709,
+            "index": 11
+          },
+          {
+            "element": "O",
+            "x": 3.633933125873895,
+            "y": 2.50086065911787,
+            "z": -0.5362697475344704,
+            "index": 12
+          },
+          {
+            "element": "C",
+            "x": 1.2253610856661332,
+            "y": 0.008148735178633059,
+            "z": 1.1217150692743778,
+            "index": 13
+          },
+          {
+            "element": "C",
+            "x": -0.14219791301805002,
+            "y": -0.2718099019573717,
+            "z": 1.1806372824106468,
+            "index": 14
+          },
+          {
+            "element": "H",
+            "x": -5.044435675287674,
+            "y": -0.7784761665543839,
+            "z": -0.3151019394644652,
+            "index": 15
+          },
+          {
+            "element": "H",
+            "x": -5.278083414500775,
+            "y": 0.7244139266408222,
+            "z": 0.5952568069169021,
+            "index": 16
+          },
+          {
+            "element": "H",
+            "x": -4.7094762400704235,
+            "y": -0.7298628778166563,
+            "z": 1.4252098650642684,
+            "index": 17
+          },
+          {
+            "element": "H",
+            "x": -2.848789067638588,
+            "y": 0.8663272239116834,
+            "z": 1.0483332994342776,
+            "index": 18
+          },
+          {
+            "element": "H",
+            "x": -3.4318267854326012,
+            "y": 0.5113399427613976,
+            "z": -1.9414020851386853,
+            "index": 19
+          },
+          {
+            "element": "H",
+            "x": -3.8004935901268544,
+            "y": 1.9563041379307955,
+            "z": -0.9852339086244212,
+            "index": 20
+          },
+          {
+            "element": "H",
+            "x": -2.1219459931190365,
+            "y": 1.4778490347030155,
+            "z": -1.238319681902309,
+            "index": 21
+          },
+          {
+            "element": "H",
+            "x": -2.4797932176369253,
+            "y": -1.6594123198590924,
+            "z": 0.9806008903918838,
+            "index": 22
+          },
+          {
+            "element": "H",
+            "x": -2.606758699419828,
+            "y": -1.6106153758851747,
+            "z": -0.7626497456558313,
+            "index": 23
+          },
+          {
+            "element": "H",
+            "x": -0.6295323613025079,
+            "y": -1.2194160035342434,
+            "z": -2.050277320661285,
+            "index": 24
+          },
+          {
+            "element": "H",
+            "x": 1.7670287516331018,
+            "y": -0.7285778296232469,
+            "z": -2.159139143314779,
+            "index": 25
+          },
+          {
+            "element": "H",
+            "x": 3.758338026300176,
+            "y": 0.49649459354672804,
+            "z": 0.8677747418878003,
+            "index": 26
+          },
+          {
+            "element": "H",
+            "x": 4.073817014717144,
+            "y": -1.8837475223873181,
+            "z": 0.2717929107121427,
+            "index": 27
+          },
+          {
+            "element": "H",
+            "x": 5.324571844443544,
+            "y": -0.845428084499174,
+            "z": -0.4370282086790735,
+            "index": 28
+          },
+          {
+            "element": "H",
+            "x": 4.02762893312633,
+            "y": -1.4784900307356321,
+            "z": -1.450859105829882,
+            "index": 29
+          },
+          {
+            "element": "H",
+            "x": 3.812917275324913,
+            "y": 3.1152876992137477,
+            "z": -1.2783416615356091,
+            "index": 30
+          },
+          {
+            "element": "H",
+            "x": 1.7284156379686648,
+            "y": 0.35633168685155137,
+            "z": 2.0213734616305024,
+            "index": 31
+          },
+          {
+            "element": "H",
+            "x": -0.6705947833714506,
+            "y": -0.13861149217003002,
+            "z": 2.122081453614404,
+            "index": 32
+          }
+        ],
+        "bonds": [
+          {
+            "begin": 0,
+            "end": 1,
+            "order": 1.0
+          },
+          {
+            "begin": 1,
+            "end": 2,
+            "order": 1.0
+          },
+          {
+            "begin": 1,
+            "end": 3,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 4,
+            "order": 1.0
+          },
+          {
+            "begin": 4,
+            "end": 5,
+            "order": 1.5
+          },
+          {
+            "begin": 5,
+            "end": 6,
+            "order": 1.5
+          },
+          {
+            "begin": 6,
+            "end": 7,
+            "order": 1.5
+          },
+          {
+            "begin": 7,
+            "end": 8,
+            "order": 1.0
+          },
+          {
+            "begin": 8,
+            "end": 9,
+            "order": 1.0
+          },
+          {
+            "begin": 8,
+            "end": 10,
+            "order": 1.0
+          },
+          {
+            "begin": 10,
+            "end": 11,
+            "order": 2.0
+          },
+          {
+            "begin": 10,
+            "end": 12,
+            "order": 1.0
+          },
+          {
+            "begin": 7,
+            "end": 13,
+            "order": 1.5
+          },
+          {
+            "begin": 13,
+            "end": 14,
+            "order": 1.5
+          },
+          {
+            "begin": 14,
+            "end": 4,
+            "order": 1.5
+          },
+          {
+            "begin": 0,
+            "end": 15,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 16,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 17,
+            "order": 1.0
+          },
+          {
+            "begin": 1,
+            "end": 18,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 19,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 20,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 21,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 22,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 23,
+            "order": 1.0
+          },
+          {
+            "begin": 5,
+            "end": 24,
+            "order": 1.0
+          },
+          {
+            "begin": 6,
+            "end": 25,
+            "order": 1.0
+          },
+          {
+            "begin": 8,
+            "end": 26,
+            "order": 1.0
+          },
+          {
+            "begin": 9,
+            "end": 27,
+            "order": 1.0
+          },
+          {
+            "begin": 9,
+            "end": 28,
+            "order": 1.0
+          },
+          {
+            "begin": 9,
+            "end": 29,
+            "order": 1.0
+          },
+          {
+            "begin": 12,
+            "end": 30,
+            "order": 1.0
+          },
+          {
+            "begin": 13,
+            "end": 31,
+            "order": 1.0
+          },
+          {
+            "begin": 14,
+            "end": 32,
+            "order": 1.0
+          }
+        ]
+      },
+      "smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+      "inchi": "InChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)",
+      "inchi_key": "HEFNNWSXXWATRW-UHFFFAOYSA-N",
+      "3d_sdf": "3672\n  -OEChem-06162617422D\n\n 33 33  0     1  0  0  0  0  0999 V2000\n    4.5981    3.3450    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.4641    1.8450    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -2.6550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321   -2.1550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321   -1.1550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321    0.8450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321    1.8450    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0\n    2.8660   -3.6550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0000   -2.1550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981   -0.6550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -0.6550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981    0.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660    0.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660    2.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5981    2.3450    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -2.0350    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9441   -2.7376    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3426   -2.0473    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7321    2.4650    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2460   -3.6550    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -4.2750    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4860   -3.6550    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3100   -1.6181    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4631   -1.8450    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6900   -2.6919    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350   -0.9650    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3291   -0.9650    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350    0.6550    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3291    0.6550    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1760    2.8819    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3291    2.6550    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5560    1.8081    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350    3.6550    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1 15  1  0  0  0  0\n  1 33  1  0  0  0  0\n  2 15  2  0  0  0  0\n  3  4  1  0  0  0  0\n  3  8  1  0  0  0  0\n  3  9  1  0  0  0  0\n  3 16  1  0  0  0  0\n  4  5  1  0  0  0  0\n  4 17  1  0  0  0  0\n  4 18  1  0  0  0  0\n  5 10  2  0  0  0  0\n  5 11  1  0  0  0  0\n  6  7  1  0  0  0  0\n  6 12  2  0  0  0  0\n  6 13  1  0  0  0  0\n  7 14  1  0  0  0  0\n  7 15  1  0  0  0  0\n  7 19  1  0  0  0  0\n  8 20  1  0  0  0  0\n  8 21  1  0  0  0  0\n  8 22  1  0  0  0  0\n  9 23  1  0  0  0  0\n  9 24  1  0  0  0  0\n  9 25  1  0  0  0  0\n 10 12  1  0  0  0  0\n 10 26  1  0  0  0  0\n 11 13  2  0  0  0  0\n 11 27  1  0  0  0  0\n 12 28  1  0  0  0  0\n 13 29  1  0  0  0  0\n 14 30  1  0  0  0  0\n 14 31  1  0  0  0  0\n 14 32  1  0  0  0  0\nM  END\n> <PUBCHEM_COMPOUND_CID>\n3672\n\n> <PUBCHEM_COMPOUND_CANONICALIZED>\n1\n\n> <PUBCHEM_CACTVS_COMPLEXITY>\n203\n\n> <PUBCHEM_CACTVS_HBOND_ACCEPTOR>\n2\n\n> <PUBCHEM_CACTVS_HBOND_DONOR>\n1\n\n> <PUBCHEM_CACTVS_ROTATABLE_BOND>\n4\n\n> <PUBCHEM_CACTVS_SUBSKEYS>\nAAADceBwMAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAABAAAAGgAACAAADQCAmAAyCIAAAgCIAiDSCAACAAAgAAAIiAEAAIgIIDKAFRCAYAAkwAEIiAeIyOCOwAAAAAAAAACAAAAAAAAAAAAAAAAAAA==\n\n> <PUBCHEM_IUPAC_OPENEYE_NAME>\n2-(4-isobutylphenyl)propanoic acid\n\n> <PUBCHEM_IUPAC_CAS_NAME>\n2-[4-(2-methylpropyl)phenyl]propanoic acid\n\n> <PUBCHEM_IUPAC_NAME_MARKUP>\n2-[4-(2-methylpropyl)phenyl]propanoic acid\n\n> <PUBCHEM_IUPAC_NAME>\n2-[4-(2-methylpropyl)phenyl]propanoic acid\n\n> <PUBCHEM_IUPAC_SYSTEMATIC_NAME>\n2-[4-(2-methylpropyl)phenyl]propanoic acid\n\n> <PUBCHEM_IUPAC_TRADITIONAL_NAME>\n2-(4-isobutylphenyl)propionic acid\n\n> <PUBCHEM_IUPAC_INCHI>\nInChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)\n\n> <PUBCHEM_IUPAC_INCHIKEY>\nHEFNNWSXXWATRW-UHFFFAOYSA-N\n\n> <PUBCHEM_XLOGP3>\n3.5\n\n> <PUBCHEM_EXACT_MASS>\n206.130679813\n\n> <PUBCHEM_MOLECULAR_FORMULA>\nC13H18O2\n\n> <PUBCHEM_MOLECULAR_WEIGHT>\n206.28\n\n> <PUBCHEM_SMILES>\nCC(C)CC1=CC=C(C=C1)C(C)C(=O)O\n\n> <PUBCHEM_CONNECTIVITY_SMILES>\nCC(C)CC1=CC=C(C=C1)C(C)C(=O)O\n\n> <PUBCHEM_CACTVS_TPSA>\n37.3\n\n> <PUBCHEM_MONOISOTOPIC_WEIGHT>\n206.130679813\n\n> <PUBCHEM_TOTAL_CHARGE>\n0\n\n> <PUBCHEM_HEAVY_ATOM_COUNT>\n15\n\n> <PUBCHEM_ATOM_DEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>\n1\n\n> <PUBCHEM_BOND_DEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_BOND_UDEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_ISOTOPIC_ATOM_COUNT>\n0\n\n> <PUBCHEM_COMPONENT_COUNT>\n1\n\n> <PUBCHEM_CACTVS_TAUTO_COUNT>\n-1\n\n> <PUBCHEM_COORDINATE_TYPE>\n1\n5\n255\n\n> <PUBCHEM_BONDANNOTATIONS>\n10  12  8\n11  13  8\n5  10  8\n5  11  8\n6  12  8\n6  13  8\n7  14  3\n\n$$$$\n"
+    },
+    "side_effects": {
+      "clinical": [
+        "Renal impairment",
+        "Contusion",
+        "Nephrolithiasis",
+        "Biliary tract disorder",
+        "Nervousness",
+        "Feeling abnormal",
+        "Stevens-Johnson syndrome",
+        "Multiple sclerosis relapse",
+        "Consciousness fluctuating",
+        "Dyspepsia",
+        "Lip swelling",
+        "Scab",
+        "Malaise",
+        "Pain",
+        "Off label use",
+        "Weight loss poor",
+        "Scar",
+        "Hypoaesthesia",
+        "Platelet count decreased",
+        "Eye disorder",
+        "Cholecystectomy",
+        "Jugular vein thrombosis",
+        "Hypersensitivity",
+        "White blood cell count increased",
+        "Lip discolouration",
+        "Dyspnoea",
+        "Hypoaesthesia oral",
+        "Skin exfoliation",
+        "Cerebral venous thrombosis",
+        "Chapped lips",
+        "Blister",
+        "Skin disorder",
+        "Hallucination, auditory",
+        "Weight decreased",
+        "Dysaesthesia",
+        "Rash generalised"
+      ],
+      "ml_predicted": {
+        "predictions": [
+          {
+            "side_effect": "Nausea",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Abdominal pain",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Diarrhoea",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Gastrointestinal pain",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Pruritus",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Vomiting",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Dizziness",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Headache",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Dermatitis",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Rash",
+            "tendency": "moderate",
+            "category": "General"
+          }
+        ],
+        "disclaimer": "\u26a0\ufe0f RESEARCH MODEL: These predictions are based on molecular structure analysis using a research-oriented machine learning model. They indicate potential tendencies only and are NOT validated for clinical use. Do NOT use for medical decision-making.",
+        "model_info": {
+          "model_name": "side_effect_predictor_v1",
+          "version": "1.0",
+          "training_date": "2026-03-07"
+        },
+        "error": null
+      }
+    },
+    "disclaimer": "\u26a0\ufe0f DISCLAIMER: This information is sourced from authoritative medical databases and is for educational purposes only. Always consult healthcare professionals for medical decisions."
+  }
+}

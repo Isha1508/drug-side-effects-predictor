@@ -1,0 +1,59 @@
+{
+  "timestamp": 1773421396.2031422,
+  "data": {
+    "drug_id": null,
+    "standard_name": "metmorfin",
+    "approved_uses": [],
+    "metadata": {},
+    "structure": {
+      "3d_sdf": null
+    },
+    "side_effects": {
+      "clinical": [
+        "Pyrexia",
+        "Sexual dysfunction",
+        "Intervertebral disc disorder",
+        "ABDOMINAL DISCOMFORT",
+        "Anxiety",
+        "Fall",
+        "Asthenia",
+        "Vomiting",
+        "Decreased appetite",
+        "APHAGIA",
+        "Urinary tract infection",
+        "Feeling abnormal",
+        "Orthostatic hypotension",
+        "Illness",
+        "WEIGHT DECREASED",
+        "Psoriasis",
+        "Loss of libido",
+        "DYSPNOEA",
+        "Bone pain",
+        "WRONG TECHNIQUE IN DRUG USAGE PROCESS",
+        "MALAISE",
+        "Agitation",
+        "Aggression",
+        "Memory impairment",
+        "Erectile dysfunction",
+        "DRUG INEFFECTIVE",
+        "PALPITATIONS",
+        "Device use issue",
+        "Anger",
+        "Device dislocation",
+        "Injection site vesicles",
+        "FATIGUE",
+        "NAUSEA",
+        "Nerve compression",
+        "Hypertension",
+        "Depression",
+        "Drug ineffective",
+        "Needle issue",
+        "Sciatica",
+        "Balance disorder"
+      ],
+      "ml_predicted": []
+    },
+    "disclaimer": "\u26a0\ufe0f DISCLAIMER: This information is sourced from authoritative medical databases and is for educational purposes only. Always consult healthcare professionals for medical decisions.",
+    "error": "Drug not found in authoritative databases"
+  }
+}

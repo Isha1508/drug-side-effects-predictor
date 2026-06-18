@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 7%;
+    --foreground: 210 40% 93%;
+
+    --card: 222 44% 10%;
+    --card-foreground: 210 40% 93%;
+
+    --popover: 222 44% 10%;
+    --popover-foreground: 210 40% 93%;
+
+    --primary: 190 100% 50%;
+    --primary-foreground: 222 47% 7%;
+
+    --secondary: 160 100% 50%;
+    --secondary-foreground: 222 47% 7%;
+
+    --muted: 222 30% 15%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 263 84% 52%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    --glass-bg: 222 44% 10% / 0.6;
+    --glass-border: 222 30% 25% / 0.3;
+    --glow-primary: 190 100% 50% / 0.3;
+    --glow-secondary: 160 100% 50% / 0.2;
+
+    --sidebar-background: 222 44% 8%;
+    --sidebar-foreground: 210 40% 93%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 222 47% 7%;
+    --sidebar-accent: 222 30% 15%;
+    --sidebar-accent-foreground: 210 40% 93%;
+    --sidebar-border: 222 30% 18%;
+    --sidebar-ring: 190 100% 50%;
+
+    --tendency-high: 0 84% 60%;
+    --tendency-moderate: 38 92% 50%;
+    --tendency-low: 142 71% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/60 backdrop-blur-xl border border-border/30 rounded-xl shadow-lg;
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300 hover:border-primary/30 hover:shadow-primary/10 hover:shadow-xl;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .gradient-text-accent {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-secondary;
+  }
+
+  .glow-border {
+    @apply border border-primary/30 shadow-[0_0_15px_hsl(var(--glow-primary))];
+  }
+
+  .glow-border-focus {
+    @apply border-primary/50 shadow-[0_0_25px_hsl(var(--glow-primary)),0_0_50px_hsl(var(--glow-secondary))];
+  }
+
+  .pill-tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border;
+  }
+
+  .pill-tag-primary {
+    @apply pill-tag bg-primary/10 text-primary border-primary/20;
+  }
+
+  .pill-tag-secondary {
+    @apply pill-tag bg-secondary/10 text-secondary border-secondary/20;
+  }
+
+  .pill-tag-accent {
+    @apply pill-tag bg-accent/10 text-accent border-accent/20;
+  }
+
+  .tendency-high {
+    @apply bg-[hsl(var(--tendency-high))]/10 text-[hsl(var(--tendency-high))] border-[hsl(var(--tendency-high))]/20;
+  }
+
+  .tendency-moderate {
+    @apply bg-[hsl(38,92%,50%)]/10 text-[hsl(38,92%,50%)] border-[hsl(38,92%,50%)]/20;
+  }
+
+  .tendency-low {
+    @apply bg-[hsl(var(--tendency-low))]/10 text-[hsl(var(--tendency-low))] border-[hsl(var(--tendency-low))]/20;
+  }
+
+  .code-block {
+    @apply font-mono text-sm bg-muted/50 rounded-lg px-4 py-3 border border-border/50 overflow-x-auto;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

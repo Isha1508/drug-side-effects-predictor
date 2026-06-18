@@ -1,0 +1,362 @@
+{
+  "timestamp": 1781646313.510751,
+  "data": {
+    "drug_id": "RXCUI:6809",
+    "standard_name": "metformin",
+    "approved_uses": [
+      {
+        "indication": "See official prescribing information",
+        "source": "RxNorm"
+      }
+    ],
+    "metadata": {
+      "rxcui": "6809",
+      "name": "metformin",
+      "tty": "",
+      "is_generic": false,
+      "source": "RxNorm"
+    },
+    "structure": {
+      "2d_svg": "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0naXNvLTg4NTktMSc/Pgo8c3ZnIHZlcnNpb249JzEuMScgYmFzZVByb2ZpbGU9J2Z1bGwnCiAgICAgICAgICAgICAgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJwogICAgICAgICAgICAgICAgICAgICAgeG1sbnM6cmRraXQ9J2h0dHA6Ly93d3cucmRraXQub3JnL3htbCcKICAgICAgICAgICAgICAgICAgICAgIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJwogICAgICAgICAgICAgICAgICB4bWw6c3BhY2U9J3ByZXNlcnZlJwp3aWR0aD0nNDAwcHgnIGhlaWdodD0nNDAwcHgnIHZpZXdCb3g9JzAgMCA0MDAgNDAwJz4KPCEtLSBFTkQgT0YgSEVBREVSIC0tPgo8cmVjdCBzdHlsZT0nb3BhY2l0eToxLjA7ZmlsbDojRkZGRkZGO3N0cm9rZTpub25lJyB3aWR0aD0nNDAwLjAnIGhlaWdodD0nNDAwLjAnIHg9JzAuMCcgeT0nMC4wJz4gPC9yZWN0Pgo8cGF0aCBjbGFzcz0nYm9uZC0wIGF0b20tMCBhdG9tLTEnIGQ9J00gNjMuOCwxMDUuOSBMIDY5LjMsMTM2LjknIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTAgYXRvbS0wIGF0b20tMScgZD0nTSA2OS4zLDEzNi45IEwgNzQuNywxNjguMCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDBGRjtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMSBhdG9tLTEgYXRvbS0yJyBkPSdNIDY2LjIsMTkwLjQgTCA0Mi4yLDIxMC41JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMEZGO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0xIGF0b20tMSBhdG9tLTInIGQ9J00gNDIuMiwyMTAuNSBMIDE4LjIsMjMwLjUnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTIgYXRvbS0xIGF0b20tMycgZD0nTSA4Ny44LDE4NS4zIEwgMTE4LjQsMTk2LjUnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwRkY7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTIgYXRvbS0xIGF0b20tMycgZD0nTSAxMTguNCwxOTYuNSBMIDE0OS4wLDIwNy44JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0zIGF0b20tMyBhdG9tLTQnIGQ9J00gMTQyLjcsMjA1LjUgTCAxNDguNCwyMzguMicgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtMyBhdG9tLTMgYXRvbS00JyBkPSdNIDE0OC40LDIzOC4yIEwgMTU0LjEsMjcwLjknIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwRkY7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTMgYXRvbS0zIGF0b20tNCcgZD0nTSAxNTQuMSwyMDMuNSBMIDE1OS44LDIzNi4yJyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC0zIGF0b20tMyBhdG9tLTQnIGQ9J00gMTU5LjgsMjM2LjIgTCAxNjUuNSwyNjguOScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDBGRjtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNCBhdG9tLTMgYXRvbS01JyBkPSdNIDE0OS4wLDIwNy44IEwgMTczLjAsMTg3LjcnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTQgYXRvbS0zIGF0b20tNScgZD0nTSAxNzMuMCwxODcuNyBMIDE5Ny4wLDE2Ny42JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMEZGO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC01IGF0b20tNSBhdG9tLTYnIGQ9J00gMjE4LjYsMTYyLjUgTCAyNDkuMiwxNzMuNycgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDBGRjtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNSBhdG9tLTUgYXRvbS02JyBkPSdNIDI0OS4yLDE3My43IEwgMjc5LjgsMTg1LjAnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTUgYXRvbS01IGF0b20tNicgZD0nTSAyMjAuMCwxNzUuMyBMIDI0NC44LDE4NC40JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMEZGO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC01IGF0b20tNSBhdG9tLTYnIGQ9J00gMjQ0LjgsMTg0LjQgTCAyNjkuNiwxOTMuNScgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNiBhdG9tLTYgYXRvbS03JyBkPSdNIDI3OS44LDE4NS4wIEwgMzAzLjgsMTY0LjknIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGNsYXNzPSdib25kLTYgYXRvbS02IGF0b20tNycgZD0nTSAzMDMuOCwxNjQuOSBMIDMyNy44LDE0NC44JyBzdHlsZT0nZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMDAwMEZGO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxJyAvPgo8cGF0aCBjbGFzcz0nYm9uZC03IGF0b20tNiBhdG9tLTgnIGQ9J00gMjc5LjgsMTg1LjAgTCAyODUuMiwyMTYuMCcgc3R5bGU9J2ZpbGw6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6Mi4wcHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MScgLz4KPHBhdGggY2xhc3M9J2JvbmQtNyBhdG9tLTYgYXRvbS04JyBkPSdNIDI4NS4yLDIxNi4wIEwgMjkwLjYsMjQ3LjEnIHN0eWxlPSdmaWxsOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOiMwMDAwRkY7c3Ryb2tlLXdpZHRoOjIuMHB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEnIC8+CjxwYXRoIGQ9J00gMTQ3LjQsMjA3LjIgTCAxNDkuMCwyMDcuOCBMIDE1MC4yLDIwNi43JyBzdHlsZT0nZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyLjBweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxOycgLz4KPHBhdGggY2xhc3M9J2F0b20tMScgZD0nTSA3Mi4yIDE3MC41CkwgNzkuMyAxODIuMApRIDgwLjAgMTgzLjIsIDgxLjIgMTg1LjIKUSA4Mi4zIDE4Ny4zLCA4Mi4zIDE4Ny40CkwgODIuMyAxNzAuNQpMIDg1LjIgMTcwLjUKTCA4NS4yIDE5Mi4yCkwgODIuMyAxOTIuMgpMIDc0LjYgMTc5LjcKUSA3My43IDE3OC4yLCA3Mi44IDE3Ni41ClEgNzEuOSAxNzQuOCwgNzEuNiAxNzQuMwpMIDcxLjYgMTkyLjIKTCA2OC44IDE5Mi4yCkwgNjguOCAxNzAuNQpMIDcyLjIgMTcwLjUKJyBmaWxsPScjMDAwMEZGJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTQnIGQ9J00gMTU3LjMgMjcyLjQKTCAxNjQuNSAyODMuOQpRIDE2NS4yIDI4NS4wLCAxNjYuMyAyODcuMQpRIDE2Ny40IDI4OS4yLCAxNjcuNSAyODkuMwpMIDE2Ny41IDI3Mi40CkwgMTcwLjQgMjcyLjQKTCAxNzAuNCAyOTQuMQpMIDE2Ny40IDI5NC4xCkwgMTU5LjggMjgxLjYKUSAxNTguOSAyODAuMSwgMTU3LjkgMjc4LjQKUSAxNTcuMCAyNzYuNywgMTU2LjcgMjc2LjIKTCAxNTYuNyAyOTQuMQpMIDE1My45IDI5NC4xCkwgMTUzLjkgMjcyLjQKTCAxNTcuMyAyNzIuNAonIGZpbGw9JyMwMDAwRkYnLz4KPHBhdGggY2xhc3M9J2F0b20tNCcgZD0nTSAxNzQuNiAyNzIuNApMIDE3Ny41IDI3Mi40CkwgMTc3LjUgMjgxLjYKTCAxODguNiAyODEuNgpMIDE4OC42IDI3Mi40CkwgMTkxLjYgMjcyLjQKTCAxOTEuNiAyOTQuMQpMIDE4OC42IDI5NC4xCkwgMTg4LjYgMjg0LjEKTCAxNzcuNSAyODQuMQpMIDE3Ny41IDI5NC4xCkwgMTc0LjYgMjk0LjEKTCAxNzQuNiAyNzIuNAonIGZpbGw9JyMwMDAwRkYnLz4KPHBhdGggY2xhc3M9J2F0b20tNScgZD0nTSAyMDMuMCAxNDcuNwpMIDIxMC4xIDE1OS4yClEgMjEwLjggMTYwLjQsIDIxMS45IDE2Mi40ClEgMjEzLjEgMTY0LjUsIDIxMy4xIDE2NC42CkwgMjEzLjEgMTQ3LjcKTCAyMTYuMCAxNDcuNwpMIDIxNi4wIDE2OS41CkwgMjEzLjEgMTY5LjUKTCAyMDUuNCAxNTYuOQpRIDIwNC41IDE1NS40LCAyMDMuNiAxNTMuNwpRIDIwMi43IDE1Mi4wLCAyMDIuNCAxNTEuNQpMIDIwMi40IDE2OS41CkwgMTk5LjYgMTY5LjUKTCAxOTkuNiAxNDcuNwpMIDIwMy4wIDE0Ny43CicgZmlsbD0nIzAwMDBGRicvPgo8cGF0aCBjbGFzcz0nYXRvbS03JyBkPSdNIDMzMy44IDEyNC45CkwgMzQwLjkgMTM2LjQKUSAzNDEuNiAxMzcuNiwgMzQyLjcgMTM5LjYKUSAzNDMuOSAxNDEuNywgMzQzLjkgMTQxLjgKTCAzNDMuOSAxMjQuOQpMIDM0Ni44IDEyNC45CkwgMzQ2LjggMTQ2LjcKTCAzNDMuOCAxNDYuNwpMIDMzNi4yIDEzNC4xClEgMzM1LjMgMTMyLjYsIDMzNC40IDEzMC45ClEgMzMzLjUgMTI5LjIsIDMzMy4yIDEyOC43CkwgMzMzLjIgMTQ2LjcKTCAzMzAuNCAxNDYuNwpMIDMzMC40IDEyNC45CkwgMzMzLjggMTI0LjkKJyBmaWxsPScjMDAwMEZGJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTcnIGQ9J00gMzUxLjAgMTI0LjkKTCAzNTMuOSAxMjQuOQpMIDM1My45IDEzNC4yCkwgMzY1LjAgMTM0LjIKTCAzNjUuMCAxMjQuOQpMIDM2OC4wIDEyNC45CkwgMzY4LjAgMTQ2LjcKTCAzNjUuMCAxNDYuNwpMIDM2NS4wIDEzNi42CkwgMzUzLjkgMTM2LjYKTCAzNTMuOSAxNDYuNwpMIDM1MS4wIDE0Ni43CkwgMzUxLjAgMTI0LjkKJyBmaWxsPScjMDAwMEZGJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTcnIGQ9J00gMzcyLjIgMTQ1LjkKUSAzNzIuNyAxNDQuNSwgMzc0LjAgMTQzLjgKUSAzNzUuMiAxNDMuMCwgMzc3LjAgMTQzLjAKUSAzNzkuMSAxNDMuMCwgMzgwLjQgMTQ0LjIKUSAzODEuNiAxNDUuNCwgMzgxLjYgMTQ3LjUKUSAzODEuNiAxNDkuNiwgMzgwLjAgMTUxLjYKUSAzNzguNCAxNTMuNSwgMzc1LjIgMTU1LjkKTCAzODEuOCAxNTUuOQpMIDM4MS44IDE1Ny41CkwgMzcyLjIgMTU3LjUKTCAzNzIuMiAxNTYuMgpRIDM3NC44IDE1NC4zLCAzNzYuNCAxNTIuOApRIDM3OC4wIDE1MS40LCAzNzguOCAxNTAuMQpRIDM3OS42IDE0OC45LCAzNzkuNiAxNDcuNgpRIDM3OS42IDE0Ni4yLCAzNzguOSAxNDUuNApRIDM3OC4yIDE0NC42LCAzNzcuMCAxNDQuNgpRIDM3NS44IDE0NC42LCAzNzUuMSAxNDUuMQpRIDM3NC4zIDE0NS42LCAzNzMuNyAxNDYuNgpMIDM3Mi4yIDE0NS45CicgZmlsbD0nIzAwMDBGRicvPgo8cGF0aCBjbGFzcz0nYXRvbS04JyBkPSdNIDI4OC4xIDI0OS42CkwgMjk1LjIgMjYxLjEKUSAyOTYuMCAyNjIuMywgMjk3LjEgMjY0LjMKUSAyOTguMiAyNjYuNCwgMjk4LjMgMjY2LjUKTCAyOTguMyAyNDkuNgpMIDMwMS4yIDI0OS42CkwgMzAxLjIgMjcxLjMKTCAyOTguMiAyNzEuMwpMIDI5MC42IDI1OC44ClEgMjg5LjcgMjU3LjMsIDI4OC43IDI1NS42ClEgMjg3LjggMjUzLjksIDI4Ny41IDI1My40CkwgMjg3LjUgMjcxLjMKTCAyODQuNyAyNzEuMwpMIDI4NC43IDI0OS42CkwgMjg4LjEgMjQ5LjYKJyBmaWxsPScjMDAwMEZGJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTgnIGQ9J00gMzA1LjMgMjQ5LjYKTCAzMDguMyAyNDkuNgpMIDMwOC4zIDI1OC44CkwgMzE5LjQgMjU4LjgKTCAzMTkuNCAyNDkuNgpMIDMyMi4zIDI0OS42CkwgMzIyLjMgMjcxLjMKTCAzMTkuNCAyNzEuMwpMIDMxOS40IDI2MS4zCkwgMzA4LjMgMjYxLjMKTCAzMDguMyAyNzEuMwpMIDMwNS4zIDI3MS4zCkwgMzA1LjMgMjQ5LjYKJyBmaWxsPScjMDAwMEZGJy8+CjxwYXRoIGNsYXNzPSdhdG9tLTgnIGQ9J00gMzI2LjUgMjcwLjYKUSAzMjcuMSAyNjkuMiwgMzI4LjMgMjY4LjUKUSAzMjkuNiAyNjcuNywgMzMxLjMgMjY3LjcKUSAzMzMuNSAyNjcuNywgMzM0LjcgMjY4LjkKUSAzMzUuOSAyNzAuMCwgMzM1LjkgMjcyLjEKUSAzMzUuOSAyNzQuMiwgMzM0LjMgMjc2LjIKUSAzMzIuOCAyNzguMiwgMzI5LjUgMjgwLjYKTCAzMzYuMiAyODAuNgpMIDMzNi4yIDI4Mi4yCkwgMzI2LjUgMjgyLjIKTCAzMjYuNSAyODAuOApRIDMyOS4yIDI3OC45LCAzMzAuOCAyNzcuNQpRIDMzMi40IDI3Ni4xLCAzMzMuMSAyNzQuOApRIDMzMy45IDI3My41LCAzMzMuOSAyNzIuMgpRIDMzMy45IDI3MC44LCAzMzMuMiAyNzAuMQpRIDMzMi41IDI2OS4zLCAzMzEuMyAyNjkuMwpRIDMzMC4yIDI2OS4zLCAzMjkuNCAyNjkuOApRIDMyOC42IDI3MC4yLCAzMjguMSAyNzEuMwpMIDMyNi41IDI3MC42CicgZmlsbD0nIzAwMDBGRicvPgo8L3N2Zz4K",
+      "3d_coordinates": {
+        "atoms": [
+          {
+            "element": "C",
+            "x": -1.7276761912254912,
+            "y": 1.1409163867233434,
+            "z": -0.8745288506611157,
+            "index": 0
+          },
+          {
+            "element": "N",
+            "x": -1.4493837053471268,
+            "y": -0.08276429181799837,
+            "z": -0.1261838053358913,
+            "index": 1
+          },
+          {
+            "element": "C",
+            "x": -2.5559946650663354,
+            "y": -0.5483547922665106,
+            "z": 0.6993172601893064,
+            "index": 2
+          },
+          {
+            "element": "C",
+            "x": -0.1391793596106297,
+            "y": -0.3572121931585868,
+            "z": 0.21783944508832553,
+            "index": 3
+          },
+          {
+            "element": "N",
+            "x": 0.20605857862253274,
+            "y": -1.4159548879325272,
+            "z": 0.8812975404231047,
+            "index": 4
+          },
+          {
+            "element": "N",
+            "x": 0.8420242974068332,
+            "y": 0.5316437411672315,
+            "z": -0.13517966539946685,
+            "index": 5
+          },
+          {
+            "element": "C",
+            "x": 2.080129085550663,
+            "y": 0.18969917098904102,
+            "z": -0.21160536644200592,
+            "index": 6
+          },
+          {
+            "element": "N",
+            "x": 2.655552446246296,
+            "y": -1.0175399617589416,
+            "z": -0.0024498594342536564,
+            "index": 7
+          },
+          {
+            "element": "N",
+            "x": 3.0271815552970467,
+            "y": 1.0925818516516677,
+            "z": -0.5611099526032213,
+            "index": 8
+          },
+          {
+            "element": "H",
+            "x": -2.7414642091523005,
+            "y": 1.127428092722237,
+            "z": -1.2896033621555005,
+            "index": 9
+          },
+          {
+            "element": "H",
+            "x": -1.6319758796076738,
+            "y": 2.0188576117279333,
+            "z": -0.22689315775588653,
+            "index": 10
+          },
+          {
+            "element": "H",
+            "x": -1.0462277399402193,
+            "y": 1.2487028907578068,
+            "z": -1.7256070815486217,
+            "index": 11
+          },
+          {
+            "element": "H",
+            "x": -3.521314946731709,
+            "y": -0.1849954502796204,
+            "z": 0.3299575764511844,
+            "index": 12
+          },
+          {
+            "element": "H",
+            "x": -2.614020767391654,
+            "y": -1.6414249679030615,
+            "z": 0.695820236975446,
+            "index": 13
+          },
+          {
+            "element": "H",
+            "x": -2.43840834923703,
+            "y": -0.2003873298136025,
+            "z": 1.730982856157832,
+            "index": 14
+          },
+          {
+            "element": "H",
+            "x": -0.6299091365822328,
+            "y": -1.9760935271127114,
+            "z": 1.0337887651707673,
+            "index": 15
+          },
+          {
+            "element": "H",
+            "x": 1.948620863105622,
+            "y": -1.619407010887242,
+            "z": 0.43970035070526403,
+            "index": 16
+          },
+          {
+            "element": "H",
+            "x": 3.4526851640577374,
+            "y": -0.9419533229010377,
+            "z": 0.6163142451290796,
+            "index": 17
+          },
+          {
+            "element": "H",
+            "x": 2.5950380380527496,
+            "y": 1.934332873621943,
+            "z": -0.9250418976123662,
+            "index": 18
+          },
+          {
+            "element": "H",
+            "x": 3.6882649215526744,
+            "y": 0.7019251164699061,
+            "z": -1.2211261274464325,
+            "index": 19
+          }
+        ],
+        "bonds": [
+          {
+            "begin": 0,
+            "end": 1,
+            "order": 1.0
+          },
+          {
+            "begin": 1,
+            "end": 2,
+            "order": 1.0
+          },
+          {
+            "begin": 1,
+            "end": 3,
+            "order": 1.0
+          },
+          {
+            "begin": 3,
+            "end": 4,
+            "order": 2.0
+          },
+          {
+            "begin": 3,
+            "end": 5,
+            "order": 1.0
+          },
+          {
+            "begin": 5,
+            "end": 6,
+            "order": 2.0
+          },
+          {
+            "begin": 6,
+            "end": 7,
+            "order": 1.0
+          },
+          {
+            "begin": 6,
+            "end": 8,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 9,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 10,
+            "order": 1.0
+          },
+          {
+            "begin": 0,
+            "end": 11,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 12,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 13,
+            "order": 1.0
+          },
+          {
+            "begin": 2,
+            "end": 14,
+            "order": 1.0
+          },
+          {
+            "begin": 4,
+            "end": 15,
+            "order": 1.0
+          },
+          {
+            "begin": 7,
+            "end": 16,
+            "order": 1.0
+          },
+          {
+            "begin": 7,
+            "end": 17,
+            "order": 1.0
+          },
+          {
+            "begin": 8,
+            "end": 18,
+            "order": 1.0
+          },
+          {
+            "begin": 8,
+            "end": 19,
+            "order": 1.0
+          }
+        ]
+      },
+      "smiles": "CN(C)C(=N)N=C(N)N",
+      "inchi": "InChI=1S/C4H11N5/c1-9(2)4(7)8-3(5)6/h1-2H3,(H5,5,6,7,8)",
+      "inchi_key": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+      "3d_sdf": "4091\n  -OEChem-06162617452D\n\n 20 19  0     0  0  0  0  0  0999 V2000\n    6.0010    0.4050    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2690    0.4050    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350   -1.0950    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5369    0.4050    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4030   -1.0950    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8671   -0.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0010    1.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1350   -0.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4030   -0.0950    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.5571   -0.6319    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4040   -0.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1771    0.4419    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6210    1.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0010    2.0250    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.3810    1.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6720   -1.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0000    0.0950    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5369    1.0250    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8660   -1.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n    3.9399   -1.4050    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  6  1  0  0  0  0\n  1  7  1  0  0  0  0\n  1  8  1  0  0  0  0\n  2  8  1  0  0  0  0\n  2  9  2  0  0  0  0\n  3  8  2  0  0  0  0\n  3 16  1  0  0  0  0\n  4  9  1  0  0  0  0\n  4 17  1  0  0  0  0\n  4 18  1  0  0  0  0\n  5  9  1  0  0  0  0\n  5 19  1  0  0  0  0\n  5 20  1  0  0  0  0\n  6 10  1  0  0  0  0\n  6 11  1  0  0  0  0\n  6 12  1  0  0  0  0\n  7 13  1  0  0  0  0\n  7 14  1  0  0  0  0\n  7 15  1  0  0  0  0\nM  END\n> <PUBCHEM_COMPOUND_CID>\n4091\n\n> <PUBCHEM_COMPOUND_CANONICALIZED>\n1\n\n> <PUBCHEM_CACTVS_COMPLEXITY>\n132\n\n> <PUBCHEM_CACTVS_HBOND_ACCEPTOR>\n1\n\n> <PUBCHEM_CACTVS_HBOND_DONOR>\n3\n\n> <PUBCHEM_CACTVS_ROTATABLE_BOND>\n2\n\n> <PUBCHEM_CACTVS_SUBSKEYS>\nAAADccBjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAQAAAAAAAAAAQDAANAAAAgAAAAJAAAAAGAAAABAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\n\n> <PUBCHEM_IUPAC_OPENEYE_NAME>\n3-(diaminomethylene)-1,1-dimethyl-guanidine\n\n> <PUBCHEM_IUPAC_CAS_NAME>\n3-(diaminomethylidene)-1,1-dimethylguanidine\n\n> <PUBCHEM_IUPAC_NAME_MARKUP>\n3-(diaminomethylidene)-1,1-dimethylguanidine\n\n> <PUBCHEM_IUPAC_NAME>\n3-(diaminomethylidene)-1,1-dimethylguanidine\n\n> <PUBCHEM_IUPAC_SYSTEMATIC_NAME>\n3-[bis(azanyl)methylidene]-1,1-dimethyl-guanidine\n\n> <PUBCHEM_IUPAC_TRADITIONAL_NAME>\n3-(diaminomethylene)-1,1-dimethyl-guanidine\n\n> <PUBCHEM_IUPAC_INCHI>\nInChI=1S/C4H11N5/c1-9(2)4(7)8-3(5)6/h1-2H3,(H5,5,6,7,8)\n\n> <PUBCHEM_IUPAC_INCHIKEY>\nXZWYZXLIPXDOLR-UHFFFAOYSA-N\n\n> <PUBCHEM_XLOGP3_AA>\n-1.3\n\n> <PUBCHEM_EXACT_MASS>\n129.10144537\n\n> <PUBCHEM_MOLECULAR_FORMULA>\nC4H11N5\n\n> <PUBCHEM_MOLECULAR_WEIGHT>\n129.16\n\n> <PUBCHEM_SMILES>\nCN(C)C(=N)N=C(N)N\n\n> <PUBCHEM_CONNECTIVITY_SMILES>\nCN(C)C(=N)N=C(N)N\n\n> <PUBCHEM_CACTVS_TPSA>\n91.5\n\n> <PUBCHEM_MONOISOTOPIC_WEIGHT>\n129.10144537\n\n> <PUBCHEM_TOTAL_CHARGE>\n0\n\n> <PUBCHEM_HEAVY_ATOM_COUNT>\n9\n\n> <PUBCHEM_ATOM_DEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_BOND_DEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_BOND_UDEF_STEREO_COUNT>\n0\n\n> <PUBCHEM_ISOTOPIC_ATOM_COUNT>\n0\n\n> <PUBCHEM_COMPONENT_COUNT>\n1\n\n> <PUBCHEM_CACTVS_TAUTO_COUNT>\n-1\n\n> <PUBCHEM_COORDINATE_TYPE>\n1\n5\n255\n\n$$$$\n"
+    },
+    "side_effects": {
+      "clinical": [
+        "Feeling abnormal",
+        "Gait disturbance",
+        "Splenomegaly",
+        "Drug level increased",
+        "Psychotic disorder",
+        "Osteomyelitis",
+        "Malaise",
+        "Epistaxis",
+        "Pain",
+        "Balance disorder",
+        "Vomiting",
+        "Fatigue",
+        "Erysipelas",
+        "Abdominal pain upper",
+        "Metastases to bone",
+        "Sepsis",
+        "Insomnia",
+        "Suicidal ideation",
+        "Pneumonia",
+        "Medication residue present",
+        "Osteonecrosis of jaw",
+        "Dyspnoea",
+        "Apathy",
+        "Weight increased",
+        "Unevaluable event",
+        "Nausea",
+        "Asthenia",
+        "Haemoglobin decreased"
+      ],
+      "ml_predicted": {
+        "predictions": [
+          {
+            "side_effect": "Dermatitis",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Rash",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Hypersensitivity",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Nausea",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Decreased appetite",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Diarrhoea",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Flushing",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Pain",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Myalgia",
+            "tendency": "high",
+            "category": "General"
+          },
+          {
+            "side_effect": "Musculoskeletal discomfort",
+            "tendency": "high",
+            "category": "General"
+          }
+        ],
+        "disclaimer": "\u26a0\ufe0f RESEARCH MODEL: These predictions are based on molecular structure analysis using a research-oriented machine learning model. They indicate potential tendencies only and are NOT validated for clinical use. Do NOT use for medical decision-making.",
+        "model_info": {
+          "model_name": "side_effect_predictor_v1",
+          "version": "1.0",
+          "training_date": "2026-03-07"
+        },
+        "error": null
+      }
+    },
+    "disclaimer": "\u26a0\ufe0f DISCLAIMER: This information is sourced from authoritative medical databases and is for educational purposes only. Always consult healthcare professionals for medical decisions."
+  }
+}

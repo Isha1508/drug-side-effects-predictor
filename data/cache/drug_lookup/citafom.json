@@ -1,0 +1,18 @@
+{
+  "timestamp": 1773421379.9014454,
+  "data": {
+    "drug_id": null,
+    "standard_name": "citafom",
+    "approved_uses": [],
+    "metadata": {},
+    "structure": {
+      "3d_sdf": null
+    },
+    "side_effects": {
+      "clinical": [],
+      "ml_predicted": []
+    },
+    "disclaimer": "\u26a0\ufe0f DISCLAIMER: This information is sourced from authoritative medical databases and is for educational purposes only. Always consult healthcare professionals for medical decisions.",
+    "error": "Drug not found in authoritative databases"
+  }
+}
