@@ -26,7 +26,13 @@ from backend.utils.config import (
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend
-
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "status": "online",
+        "service": "Drug Side Effects Predictor API",
+        "health": "/health"
+    })
 # Initialize components
 drug_lookup = DrugLookup()
 structure_handler = MolecularStructureHandler()
