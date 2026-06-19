@@ -61,13 +61,13 @@ export default function DrugResults() {
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 space-y-8"
       >
         {/* Drug Information Card */}
-        <DrugInfoCard drugInfo={drugData.drug_info} />
+        <DrugInfoCard drug={drugData.drug_info} />
 
         {/* Molecular Structure Section - key forces remount so 3D viewer shows correct molecule per drug */}
         {drugData.structure && drugData.structure.smiles && (
           <MolecularViewer
             key={drugData.structure.smiles ?? drugData.drug_info.drug_id}
-            structure={drugData.structure}
+            drug = {drugData}
           />
         )}
 

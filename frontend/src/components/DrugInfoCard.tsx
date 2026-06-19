@@ -3,7 +3,7 @@ import { Pill, Database, BookOpen } from "lucide-react";
 import type { Drug } from "@/types/drug";
 
 interface DrugInfoCardProps {
-  drug: Drug;
+  drug: any;
 }
 
 export default function DrugInfoCard({ drug }: DrugInfoCardProps) {

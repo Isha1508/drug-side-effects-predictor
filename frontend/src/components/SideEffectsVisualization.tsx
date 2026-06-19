@@ -4,7 +4,7 @@ import { AlertTriangle, TrendingUp, Activity } from 'lucide-react';
 import type { SideEffectPredictions } from '../types';
 import { useAppStore } from '../store/useAppStore';
 import SideEffectPill3D from './SideEffectPill3D';
-import { getSideEffectDescription } from '../utils/sideEffectDescriptions';
+import { getSideEffectDescription } from '../lib/sideEffectDescriptions';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 export default function SideEffectsVisualization({ predictions }: { predictions: SideEffectPredictions }) {
@@ -167,7 +167,7 @@ export default function SideEffectsVisualization({ predictions }: { predictions:
                               {payload[0].payload.fullName}
                             </p>
                             <p className="text-medical-blue font-semibold">
-                              Score: {payload[0].value?.toFixed(3)}
+                              Score: {Number(payload[0].value).toFixed(3)}
                             </p>
                           </div>
                         );

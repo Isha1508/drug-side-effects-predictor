@@ -5,7 +5,7 @@ import { OrbitControls, PerspectiveCamera, RoundedBox } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 import { useRef } from 'react';
 import { Group } from 'three';
-import { getSideEffectDescription } from '../utils/sideEffectDescriptions';
+import { getSideEffectDescription } from '../lib/sideEffectDescriptions';
 
 interface SideEffectPill3DProps {
   sideEffect: string;

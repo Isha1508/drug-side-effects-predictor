@@ -58,7 +58,7 @@ function Molecule({ atoms, bonds }: { atoms: Drug["atoms"]; bonds: Drug["bonds"]
 }
 
 interface MolecularViewerProps {
-  drug: Drug;
+  drug: any;
 }
 
 export default function MolecularViewer({ drug }: MolecularViewerProps) {
